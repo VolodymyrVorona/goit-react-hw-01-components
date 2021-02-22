@@ -2,10 +2,12 @@ import Section from './components/Section/Section';
 import Profile from './components/Profile/Prfile';
 import Statistics from './components/Statistics/Statistics';
 import FriendsList from './components/Friends/FriendsList';
+import Transactions from './components/Transactions/Transactions';
 
 import user from './Data/user.json';
 import statistics from './Data/statistics.json';
 import friends from './Data/friends';
+import transactions from './Data/transactions';
 
 function App() {
   return (
@@ -27,6 +29,10 @@ function App() {
 
       <Section title="Завдання № 3">
         <FriendsList friends={friends} />
+      </Section>
+
+      <Section title="Завдання № 4">
+        <Transactions items={transactions} />
       </Section>
     </>
   );

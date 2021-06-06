@@ -1,8 +1,8 @@
-import Section from './Components/Section/Section';
-import Profile from './Components/Profile/Prfile';
-import Statistics from './Components/Statistics/Statistics';
-import FriendsList from './Components/Friends/FriendsList';
-import Transactions from './Components/Transactions/Transactions';
+import Section from './components/Section/Section';
+import Profile from './components/Profile/Prfile';
+import Statistics from './components/Statistics/Statistics';
+import FriendsList from './components/Friends/FriendsList';
+import Transactions from './components/Transactions/Transactions';
 
 import user from './Data/user.json';
 import statistics from './Data/statistics.json';

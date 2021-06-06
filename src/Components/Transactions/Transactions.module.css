@@ -1,0 +1,46 @@
+.table {
+  width: 400px;
+  margin: 0px auto;
+  border: 1px solid silver;
+  border-radius: 3px;
+  border-spacing: 0px;
+
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.tHeadRow {
+  background-color: rgb(115, 48, 65);
+}
+
+.tHeadCell,
+.tBodyCell {
+  width: calc(100% / 3);
+  padding: 5px;
+}
+
+.tHeadCell {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.tHeadCell:not(:last-child) {
+  border-right: 1px solid beige;
+}
+
+.tBodyRow:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.tBodyCell {
+  text-align: center;
+  color: #212121;
+  font-size: 14px;
+}
+
+.tBodyCell:nth-child(3n + 1) {
+  text-transform: capitalize;
+}
+
+.tBodyCell:not(:last-child) {
+  border-right: 1px solid darkgray;
+}

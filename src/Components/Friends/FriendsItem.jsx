@@ -5,7 +5,6 @@ import s from './Friends.module.css';
 function FriendsItem({ avatar, name, isOnline }) {
   let bgColor;
   isOnline ? (bgColor = 'green') : (bgColor = 'red');
-  console.log(bgColor);
 
   return (
     <li className={s.item}>

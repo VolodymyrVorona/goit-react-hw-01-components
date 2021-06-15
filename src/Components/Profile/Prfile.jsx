@@ -6,7 +6,6 @@ import s from './Profile.module.css';
 function Profile(user) {
   const { name, tag, location, avatar, stats } = user;
 
-  console.log(user);
   return (
     <div className={s.profile}>
       <div className={s.description}>
